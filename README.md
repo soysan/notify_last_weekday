@@ -1,4 +1,4 @@
-# Notification Slack bot for end of weekday
+# Notification Slack bot for the last weekday of the month
 
 This will post a preferable message on Slack from an AWS Lambda function.
 EventBridge will trigger the target days on the last weekdays of every month.
@@ -7,7 +7,7 @@ The cron schedule would be set like `cron(0 6 26-31 * ? *)`.
 
 ## Usage
 
-Create venv
+Create a virtual environment
 
 ```python
 python -m venv venv
